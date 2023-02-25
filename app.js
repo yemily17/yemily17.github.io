@@ -14,3 +14,5 @@ fetch('https://api.echo3D.com/query?key=' + steep-rain-1061)
 var apiKey = echoDB.apiKey;
 var db = Object.values(echoDB.db);
 console.log("API KEY IS "+apiKey)
+let d = new Date();
+document.body.innerHTML = "<h1>Today's date is " + d + "</h1>"
