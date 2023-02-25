@@ -1,5 +1,5 @@
-let d = new Date();
-document.body.innerHTML = "<h1>CHANGE's date is " + d + "</h1>"
+// let d = new Date();
+// document.body.innerHTML = "<h1>CHANGE's date is " + d + "</h1>"
 
 var echoDB;
 
@@ -17,4 +17,4 @@ fetch('https://api.echo3D.com/query?key=' + API_KEY)
 var apiKey = echoDB.apiKey;
 var db = Object.values(echoDB.db);
 
-document.body.innerHTML = "<h1>Today's date is " + apiKey + "</h1>"
+document.body.innerHTML = "<h1>APIKEY " + apiKey + "</h1>"
